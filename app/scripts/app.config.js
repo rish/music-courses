@@ -8,7 +8,6 @@
     $stateProvider
       .state('index', {
         url: '/',
-        templateUrl: "templates/index.html",
         controller: "AppController",
         views: {
           'header': {
