@@ -1,0 +1,80 @@
+{
+  "beginner": [
+    {
+      "name": "Guitare éléctrique",
+      "thumbnail_src": "/images/thumb-electric-guitar.jpg"
+    },
+    {
+      "name": "Guitare acoustique",
+      "thumbnail_src": "/images/thumb-acoustic-guitar.jpg"
+    },
+    {
+      "name": "Piano",
+      "thumbnail_src": "/images/thumb-piano.jpg"
+    },
+    {
+      "name": "Basse",
+      "thumbnail_src": "/images/thumb-bass.jpg"
+    },
+    {
+      "name": "Batterie",
+      "thumbnail_src": "/images/thumb-drums.jpg"
+    },
+    {
+      "name": "Chant",
+      "thumbnail_src": "/images/thumb-vocals.jpg"
+    }
+  ],
+  "intermediate": [
+    {
+      "name": "Guitare éléctrique",
+      "thumbnail_src": "/images/thumb-electric-guitar.jpg"
+    },
+    {
+      "name": "Guitare acoustique",
+      "thumbnail_src": "/images/thumb-acoustic-guitar.jpg"
+    },
+    {
+      "name": "Piano",
+      "thumbnail_src": "/images/thumb-piano.jpg"
+    },
+    {
+      "name": "Basse",
+      "thumbnail_src": "/images/thumb-bass.jpg"
+    },
+    {
+      "name": "Batterie",
+      "thumbnail_src": "/images/thumb-drums.jpg"
+    },
+    {
+      "name": "Chant",
+      "thumbnail_src": "/images/thumb-vocals.jpg"
+    }
+  ],
+  "advance": [
+    {
+      "name": "Guitare éléctrique",
+      "thumbnail_src": "/images/thumb-electric-guitar.jpg"
+    },
+    {
+      "name": "Guitare acoustique",
+      "thumbnail_src": "/images/thumb-acoustic-guitar.jpg"
+    },
+    {
+      "name": "Piano",
+      "thumbnail_src": "/images/thumb-piano.jpg"
+    },
+    {
+      "name": "Basse",
+      "thumbnail_src": "/images/thumb-bass.jpg"
+    },
+    {
+      "name": "Batterie",
+      "thumbnail_src": "/images/thumb-drums.jpg"
+    },
+    {
+      "name": "Chant",
+      "thumbnail_src": "/images/thumb-vocals.jpg"
+    }
+  ]
+}
