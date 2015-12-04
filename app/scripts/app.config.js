@@ -4,11 +4,11 @@
     .config(AppConfig);
   function AppConfig($stateProvider, $urlRouterProvider) {
     console.info('AppConfig');
-    $urlRouterProvider.otherwise("/");
+    $urlRouterProvider.otherwise('/');
     $stateProvider
       .state('index', {
         url: '/',
-        controller: "AppController",
+        controller: 'AppController',
         views: {
           'header': {
             templateUrl: 'templates/header.html'
