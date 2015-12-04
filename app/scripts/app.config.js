@@ -17,7 +17,9 @@
             templateUrl: 'templates/hero.html'
           },
           'content': {
-            templateUrl: 'templates/content.html'
+            templateUrl: 'templates/content.html',
+            controller: 'ContentController',
+            controllerAs: 'vm'
           },
           'footer': {
             templateUrl: 'templates/footer.html'
