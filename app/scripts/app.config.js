@@ -9,7 +9,21 @@
       .state('index', {
         url: '/',
         templateUrl: "templates/index.html",
-        controller: "AppController"
-      });
+        controller: "AppController",
+        views: {
+          'header': {
+            templateUrl: 'templates/header.html'
+          },
+          'hero': {
+            templateUrl: 'templates/hero.html'
+          },
+          'content': {
+            templateUrl: 'templates/content.html'
+          },
+          'footer': {
+            templateUrl: 'templates/footer.html'
+          }
+        }
+      })
   }
 }());
