@@ -1,7 +1,11 @@
-<div class="level" ng-repeat="level in vm.levels">
-  <h3 class="level-title">{{level.title}}</h3>
-  <div class="course" ng-repeat="course in level.courses">
-    <img class="thumb" ng-src="{{ course.thumbnail_src }}">
-    <h4 class="course-name">{{ course.title }}</h4>
+<div id="content">
+  <div class="level" ng-repeat="level in vm.levels">
+    <div class="wrapper">
+      <h3 class="title">{{level.title}}</h3>
+      <div class="course" ng-repeat="course in level.courses">
+        <img class="thumb" ng-src="{{ course.thumbnail_src }}">
+        <h4 class="title">{{ course.title }}</h4>
+      </div>
+    </div>
   </div>
 </div>
