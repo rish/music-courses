@@ -1,0 +1,37 @@
+#header {
+  background: url('../images/header-bg.png');
+  height: ($headerPadding * 2) - $headerHeight;
+  padding: $headerPadding 0;
+  overflow: auto;
+  color: $text-colour;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.3);
+  position: relative;
+  z-index: 100;
+  #logo {
+    width: 18rem;
+    float: left;
+  }
+  .logo {
+    width: 3rem;
+    float: left;
+    margin: 0 1rem 0 0;
+  }
+  .title, .strapline {
+    display: block;
+  }
+  .title {
+    font-size: $logo-title-size;
+  }
+  .strapline {
+    color: $brand-colour-light;
+    font-size: $logo-strapline-size;
+    font-style: italic;
+    padding: 0.2rem 0 0;
+  }
+  xyz-login-button .btn {
+    font-size: 0.8rem;
+    padding: 0.9rem;
+    margin: 0.3rem;
+    margin-left: 2rem;
+  }
+}

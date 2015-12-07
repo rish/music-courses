@@ -1,0 +1,24 @@
+#header .menu {
+  float: left;
+  font-size: 1.2rem;
+  margin: -1rem 0 0 1.5rem;
+  ul {
+    margin-bottom: 0;
+  }
+  li {
+    display: inline-block;
+  }
+  a {
+    color: $text-colour;
+    text-decoration: none;
+    padding: 0.7rem 1rem;
+    display: inline-block;
+    &:hover {
+      background: $brand-colour-dark;
+      border-radius: $border-radius;
+      box-shadow: 0 1px 1px rgba($shadow-outer, 0.3),
+      inset 0px 1px 3px $shadow-inner;
+    }
+  }
+}
+
