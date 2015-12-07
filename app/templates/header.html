@@ -1,9 +1,12 @@
 <div id="header">
   <div class="wrapper">
-    <div class="#logo" ng-click="goHome()">
+    <div id="logo" ng-click="goHome()">
       <img class="logo" src="/images/logo.svg">
       <span class="title">Cours de Musique</span>
       <span class="strapline">Lorem ipsum ipsum lorem ipsum</span>
+    </div>
+    <div class="menu">
+      <ng-include src="'templates/menu.html'"></ng-include>
     </div>
   </div>
 </div>
