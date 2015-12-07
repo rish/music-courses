@@ -1,19 +1,8 @@
 // bower:scss
 @import "bower_components/font-awesome/scss/font-awesome.scss";
 // endbower
-$brand-colour: #3e4e5c;
-$brand-colour-dark: #35424c;
-$brand-colour-light: #749ab4;
-$brand-grey: #9e9e9e;
-$text-colour: #fff;
 
-$shadow-inner: #303c45;
-$shadow-outer: #819eb1;
-
-$logo-title-size: 1.5rem;
-$logo-strapline-size: 0.8rem;
-
-$border-radius: 0.3rem;
+@import "variables";
 
 html, body {
   margin: 0;
