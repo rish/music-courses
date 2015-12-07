@@ -4,7 +4,8 @@
   padding: $headerPadding 0;
   overflow: auto;
   color: $text-colour;
-  box-shadow: 0 2px 3px rgba(0,0,0,0.3);
+  //box-shadow: 0 2px 3px rgba(0,0,0,0.3);
+  // Remove box-shadow for now
   position: relative;
   z-index: 100;
   @include max-screen(1200px) {
