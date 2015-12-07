@@ -1,0 +1,36 @@
+#content {
+  .title {
+    text-align: center;
+  }
+  .level {
+    margin: 0rem 0;
+    padding: 1rem 0;
+    overflow: auto;
+    background: #ededed;
+  }
+  .level .wrapper > .title {
+    font-size: 1.3rem;
+    color: $brand-colour;
+    padding: 0 0 1rem;
+  }
+  .course {
+    width: percentage(1/6);
+    float: left;
+  }
+  .course .thumb {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid white;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  }
+  .course .title {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #000;
+  }
+  .level:nth-child(even) {
+    background: white;
+  }
+}
+
