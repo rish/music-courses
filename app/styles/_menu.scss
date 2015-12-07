@@ -20,5 +20,12 @@
       inset 0px 1px 3px $shadow-inner;
     }
   }
+  @include
+    iphone4,
+    iphone5,
+    iphone6,
+    iphone6-plus {
+    display: none;
+  }
 }
 

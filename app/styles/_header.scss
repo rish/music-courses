@@ -7,6 +7,9 @@
   box-shadow: 0 2px 3px rgba(0,0,0,0.3);
   position: relative;
   z-index: 100;
+  @include max-screen(768px) {
+    padding-left: 2rem;
+  }
   #logo {
     width: 18rem;
     float: left;
@@ -33,5 +36,13 @@
     padding: 0.9rem;
     margin: 0.3rem;
     margin-left: 2rem;
+    @include
+    iphone4,
+    iphone5,
+    iphone6,
+    iphone6-plus {
+      display: none;
+    }
+
   }
 }
