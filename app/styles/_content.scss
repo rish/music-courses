@@ -15,6 +15,12 @@
   }
   .course {
     width: percentage(1/6);
+    @include max-screen(768px) {
+      width: percentage(3/6);
+    }
+    @include ipad {
+      width: percentage(2/6);
+    }
     float: left;
   }
   .course .thumb {

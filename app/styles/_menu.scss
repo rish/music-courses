@@ -2,8 +2,14 @@
   float: left;
   font-size: 1.2rem;
   margin: -1rem 0 0 1.5rem;
+  @include max-screen(1200px) {
+    margin-left: 0;
+    ul {
+      padding-left: 0;
+    }
+  }
   ul {
-    margin-bottom: 0;
+    margin-left: 0;
   }
   li {
     display: inline-block;
@@ -13,6 +19,9 @@
     text-decoration: none;
     padding: 0.7rem 1rem;
     display: inline-block;
+    @include max-screen(1200px) {
+      font-size: 1rem;
+    }
     &:hover {
       background: $brand-colour-dark;
       border-radius: $border-radius;
@@ -20,11 +29,7 @@
       inset 0px 1px 3px $shadow-inner;
     }
   }
-  @include
-    iphone4,
-    iphone5,
-    iphone6,
-    iphone6-plus {
+  @include max-screen(768px) {
     display: none;
   }
 }
