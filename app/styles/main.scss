@@ -107,9 +107,9 @@ $headerPadding: 20px;
     position: absolute;
     top: 3rem;
     right: 3rem;
+    text-align: center;
     .title {
       margin: 1rem 0 1.8rem;
-      text-align: center;
       font-size: 2rem;
       font-weight: normal;
     }
@@ -117,6 +117,10 @@ $headerPadding: 20px;
       font-size: 0.9rem;
       padding: 0 2rem;
       line-height: 1.5rem;
+      text-align: left;
+    }
+    .btn {
+      margin: 1.1rem 0;
     }
   }
 }
@@ -134,7 +138,12 @@ $headerPadding: 20px;
     cursor: pointer;
   }
   &.btn-warning {
-    background: linear-gradient(180deg, #cc0000, #a70000);
+    $top: #cc0000;
+    $bottom: #a70000;
+    background: linear-gradient(180deg, $top, $bottom);
+    &:hover {
+      background: linear-gradient(180deg, darken($top, 5%), darken($bottom, 5%));
+    }
   }
 }
 
