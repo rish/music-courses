@@ -121,6 +121,21 @@ $headerPadding: 20px;
   }
 }
 
+.btn {
+  display: inline-block;
+  padding: 0.9rem 1.5rem;
+  color: $text-colour;
+  text-decoration: none;
+  background: $brand-colour;
+  text-transform: uppercase;
+  border-radius: $border-radius;
+  font-size: 1.2rem;
+  &:hover {
+    cursor: pointer;
+  }
+  &.btn-warning {
+    background: linear-gradient(180deg, #cc0000, #a70000);
+  }
 }
 
 #content {
