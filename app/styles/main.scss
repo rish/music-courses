@@ -63,6 +63,11 @@ $headerPadding: 20px;
     font-style: italic;
     padding: 0.2rem 0 0;
   }
+  xyz-login-button .btn {
+    font-size: 0.8rem;
+    padding: 0.9rem;
+    margin: 0.3rem;
+  }
 }
 
 #header .menu {
@@ -138,6 +143,14 @@ $headerPadding: 20px;
               0 1px 1px rgba(black, 0.2);;
   &:hover {
     cursor: pointer;
+  }
+  &.btn-success {
+    $top: #1f9108;
+    $bottom: #256717;
+    background: linear-gradient(180deg, $top, $bottom);
+    &:hover {
+      background: linear-gradient(180deg, darken($top, 2%), darken($bottom, 2%));
+    }
   }
   &.btn-warning {
     $top: #cc0000;
